@@ -80,5 +80,12 @@ namespace Restaurant.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        internal static System.Drawing.Bitmap icon_comback {
+            get {
+                object obj = ResourceManager.GetObject("icon_comback", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }

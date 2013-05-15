@@ -26,9 +26,31 @@ namespace Restaurant
 
         }
 
-        private void expandablePanel1_Click(object sender, EventArgs e)
+        private void metroTileItem15_Click(object sender, EventArgs e)
         {
+            expandablePanel1.Expanded = false;
+            expandablePanel1.TitleHeight = 1;
+            metroTabItem3.Select();
+        }
 
+        private void buttonX7_Click(object sender, EventArgs e)
+        {
+            expandablePanel1.Expanded = false;
+        }
+
+        private void metroStatusBar1_MouseHover(object sender, EventArgs e)
+        {
+            //expandablePanel1.Expanded = true;
+        }
+
+        private void buttonItem3_Click(object sender, EventArgs e)
+        {
+            expandablePanel1.Expanded = true;
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            expandablePanel1.Expanded = false;
         }
     }
 }
