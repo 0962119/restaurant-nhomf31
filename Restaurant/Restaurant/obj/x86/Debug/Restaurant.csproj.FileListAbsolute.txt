@@ -7,3 +7,5 @@ C:\Users\QN\AppData\Local\Temporary Projects\Restaurant\obj\x86\Debug\GenerateRe
 C:\Users\QN\AppData\Local\Temporary Projects\Restaurant\obj\x86\Debug\GenerateResource.write.1.tlog
 C:\Users\QN\AppData\Local\Temporary Projects\Restaurant\obj\x86\Debug\Restaurant.exe
 C:\Users\QN\AppData\Local\Temporary Projects\Restaurant\obj\x86\Debug\Restaurant.pdb
+C:\Users\QN\Desktop\restaurant-nhomf31\Restaurant\Restaurant\obj\x86\Debug\Restaurant.exe
+C:\Users\QN\Desktop\restaurant-nhomf31\Restaurant\Restaurant\obj\x86\Debug\Restaurant.pdb

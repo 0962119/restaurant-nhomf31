@@ -38,11 +38,11 @@
             this.metroShell1 = new DevComponents.DotNetBar.Metro.MetroShell();
             this.metroTabPanel1 = new DevComponents.DotNetBar.Metro.MetroTabPanel();
             this.groupPanel1 = new DevComponents.DotNetBar.Controls.GroupPanel();
+            this.metroTabPanel4 = new DevComponents.DotNetBar.Metro.MetroTabPanel();
+            this.metroTabPanel2 = new DevComponents.DotNetBar.Metro.MetroTabPanel();
+            this.metroTabPanel3 = new DevComponents.DotNetBar.Metro.MetroTabPanel();
             this.metroTabPanel5 = new DevComponents.DotNetBar.Metro.MetroTabPanel();
             this.metroTabPanel6 = new DevComponents.DotNetBar.Metro.MetroTabPanel();
-            this.metroTabPanel4 = new DevComponents.DotNetBar.Metro.MetroTabPanel();
-            this.metroTabPanel3 = new DevComponents.DotNetBar.Metro.MetroTabPanel();
-            this.metroTabPanel2 = new DevComponents.DotNetBar.Metro.MetroTabPanel();
             this.metroAppButton2 = new DevComponents.DotNetBar.Metro.MetroAppButton();
             this.metroTabItem3 = new DevComponents.DotNetBar.Metro.MetroTabItem();
             this.metroTabItem4 = new DevComponents.DotNetBar.Metro.MetroTabItem();
@@ -236,6 +236,75 @@
             this.groupPanel1.TabIndex = 0;
             this.groupPanel1.Text = "thong tin bàn ghế";
             // 
+            // metroTabPanel4
+            // 
+            this.metroTabPanel4.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.metroTabPanel4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.metroTabPanel4.Location = new System.Drawing.Point(0, 51);
+            this.metroTabPanel4.Name = "metroTabPanel4";
+            this.metroTabPanel4.Padding = new System.Windows.Forms.Padding(3, 0, 3, 3);
+            this.metroTabPanel4.Size = new System.Drawing.Size(1153, 656);
+            // 
+            // 
+            // 
+            this.metroTabPanel4.Style.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // 
+            // 
+            this.metroTabPanel4.StyleMouseDown.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // 
+            // 
+            this.metroTabPanel4.StyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.metroTabPanel4.TabIndex = 4;
+            this.metroTabPanel4.Visible = false;
+            // 
+            // metroTabPanel2
+            // 
+            this.metroTabPanel2.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.metroTabPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.metroTabPanel2.Location = new System.Drawing.Point(0, 51);
+            this.metroTabPanel2.Name = "metroTabPanel2";
+            this.metroTabPanel2.Padding = new System.Windows.Forms.Padding(3, 0, 3, 3);
+            this.metroTabPanel2.Size = new System.Drawing.Size(1153, 656);
+            // 
+            // 
+            // 
+            this.metroTabPanel2.Style.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // 
+            // 
+            this.metroTabPanel2.StyleMouseDown.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // 
+            // 
+            this.metroTabPanel2.StyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.metroTabPanel2.TabIndex = 2;
+            this.metroTabPanel2.Visible = false;
+            // 
+            // metroTabPanel3
+            // 
+            this.metroTabPanel3.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.metroTabPanel3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.metroTabPanel3.Location = new System.Drawing.Point(0, 51);
+            this.metroTabPanel3.Name = "metroTabPanel3";
+            this.metroTabPanel3.Padding = new System.Windows.Forms.Padding(3, 0, 3, 3);
+            this.metroTabPanel3.Size = new System.Drawing.Size(1153, 656);
+            // 
+            // 
+            // 
+            this.metroTabPanel3.Style.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // 
+            // 
+            this.metroTabPanel3.StyleMouseDown.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // 
+            // 
+            this.metroTabPanel3.StyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.metroTabPanel3.TabIndex = 3;
+            this.metroTabPanel3.Visible = false;
+            // 
             // metroTabPanel5
             // 
             this.metroTabPanel5.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
@@ -281,75 +350,6 @@
             this.metroTabPanel6.StyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
             this.metroTabPanel6.TabIndex = 6;
             this.metroTabPanel6.Visible = false;
-            // 
-            // metroTabPanel4
-            // 
-            this.metroTabPanel4.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.metroTabPanel4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.metroTabPanel4.Location = new System.Drawing.Point(0, 51);
-            this.metroTabPanel4.Name = "metroTabPanel4";
-            this.metroTabPanel4.Padding = new System.Windows.Forms.Padding(3, 0, 3, 3);
-            this.metroTabPanel4.Size = new System.Drawing.Size(1153, 656);
-            // 
-            // 
-            // 
-            this.metroTabPanel4.Style.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            // 
-            // 
-            // 
-            this.metroTabPanel4.StyleMouseDown.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            // 
-            // 
-            // 
-            this.metroTabPanel4.StyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.metroTabPanel4.TabIndex = 4;
-            this.metroTabPanel4.Visible = false;
-            // 
-            // metroTabPanel3
-            // 
-            this.metroTabPanel3.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.metroTabPanel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.metroTabPanel3.Location = new System.Drawing.Point(0, 51);
-            this.metroTabPanel3.Name = "metroTabPanel3";
-            this.metroTabPanel3.Padding = new System.Windows.Forms.Padding(3, 0, 3, 3);
-            this.metroTabPanel3.Size = new System.Drawing.Size(1153, 656);
-            // 
-            // 
-            // 
-            this.metroTabPanel3.Style.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            // 
-            // 
-            // 
-            this.metroTabPanel3.StyleMouseDown.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            // 
-            // 
-            // 
-            this.metroTabPanel3.StyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.metroTabPanel3.TabIndex = 3;
-            this.metroTabPanel3.Visible = false;
-            // 
-            // metroTabPanel2
-            // 
-            this.metroTabPanel2.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.metroTabPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.metroTabPanel2.Location = new System.Drawing.Point(0, 51);
-            this.metroTabPanel2.Name = "metroTabPanel2";
-            this.metroTabPanel2.Padding = new System.Windows.Forms.Padding(3, 0, 3, 3);
-            this.metroTabPanel2.Size = new System.Drawing.Size(1153, 656);
-            // 
-            // 
-            // 
-            this.metroTabPanel2.Style.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            // 
-            // 
-            // 
-            this.metroTabPanel2.StyleMouseDown.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            // 
-            // 
-            // 
-            this.metroTabPanel2.StyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.metroTabPanel2.TabIndex = 2;
-            this.metroTabPanel2.Visible = false;
             // 
             // metroAppButton2
             // 
