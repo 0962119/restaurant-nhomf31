@@ -36,6 +36,8 @@
             this.metroTabItem1 = new DevComponents.DotNetBar.Metro.MetroTabItem();
             this.metroAppButton1 = new DevComponents.DotNetBar.Metro.MetroAppButton();
             this.metroShell1 = new DevComponents.DotNetBar.Metro.MetroShell();
+            this.metroTabPanel1 = new DevComponents.DotNetBar.Metro.MetroTabPanel();
+            this.groupPanel1 = new DevComponents.DotNetBar.Controls.GroupPanel();
             this.metroTabPanel5 = new DevComponents.DotNetBar.Metro.MetroTabPanel();
             this.metroTabPanel6 = new DevComponents.DotNetBar.Metro.MetroTabPanel();
             this.metroTabPanel4 = new DevComponents.DotNetBar.Metro.MetroTabPanel();
@@ -80,11 +82,9 @@
             this.metroTileItem9 = new DevComponents.DotNetBar.Metro.MetroTileItem();
             this.metroTileItem10 = new DevComponents.DotNetBar.Metro.MetroTileItem();
             this.metroTileItem11 = new DevComponents.DotNetBar.Metro.MetroTileItem();
-            this.metroTabPanel1 = new DevComponents.DotNetBar.Metro.MetroTabPanel();
-            this.groupPanel1 = new DevComponents.DotNetBar.Controls.GroupPanel();
             this.metroShell1.SuspendLayout();
-            this.expandablePanel1.SuspendLayout();
             this.metroTabPanel1.SuspendLayout();
+            this.expandablePanel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // styleManager1
@@ -133,11 +133,11 @@
             this.metroShell1.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
             this.metroShell1.CaptionVisible = true;
             this.metroShell1.Controls.Add(this.metroTabPanel1);
+            this.metroShell1.Controls.Add(this.metroTabPanel4);
+            this.metroShell1.Controls.Add(this.metroTabPanel2);
+            this.metroShell1.Controls.Add(this.metroTabPanel3);
             this.metroShell1.Controls.Add(this.metroTabPanel5);
             this.metroShell1.Controls.Add(this.metroTabPanel6);
-            this.metroShell1.Controls.Add(this.metroTabPanel4);
-            this.metroShell1.Controls.Add(this.metroTabPanel3);
-            this.metroShell1.Controls.Add(this.metroTabPanel2);
             this.metroShell1.Dock = System.Windows.Forms.DockStyle.Top;
             this.metroShell1.ForeColor = System.Drawing.Color.Black;
             this.metroShell1.HelpButtonText = null;
@@ -174,6 +174,67 @@
             this.metroShell1.TabIndex = 0;
             this.metroShell1.TabStripFont = new System.Drawing.Font("Segoe UI", 10.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.metroShell1.Text = "metroShell1";
+            // 
+            // metroTabPanel1
+            // 
+            this.metroTabPanel1.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.metroTabPanel1.Controls.Add(this.groupPanel1);
+            this.metroTabPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.metroTabPanel1.Location = new System.Drawing.Point(0, 51);
+            this.metroTabPanel1.Name = "metroTabPanel1";
+            this.metroTabPanel1.Padding = new System.Windows.Forms.Padding(3, 0, 3, 3);
+            this.metroTabPanel1.Size = new System.Drawing.Size(1153, 656);
+            // 
+            // 
+            // 
+            this.metroTabPanel1.Style.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // 
+            // 
+            this.metroTabPanel1.StyleMouseDown.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // 
+            // 
+            this.metroTabPanel1.StyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.metroTabPanel1.TabIndex = 1;
+            // 
+            // groupPanel1
+            // 
+            this.groupPanel1.BackColor = System.Drawing.Color.White;
+            this.groupPanel1.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.Office2007;
+            this.groupPanel1.Location = new System.Drawing.Point(0, 8);
+            this.groupPanel1.Name = "groupPanel1";
+            this.groupPanel1.Size = new System.Drawing.Size(266, 648);
+            // 
+            // 
+            // 
+            this.groupPanel1.Style.BackColor2SchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground2;
+            this.groupPanel1.Style.BackColorGradientAngle = 90;
+            this.groupPanel1.Style.BackColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground;
+            this.groupPanel1.Style.BorderBottom = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.groupPanel1.Style.BorderBottomWidth = 1;
+            this.groupPanel1.Style.BorderColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBorder;
+            this.groupPanel1.Style.BorderLeft = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.groupPanel1.Style.BorderLeftWidth = 1;
+            this.groupPanel1.Style.BorderRight = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.groupPanel1.Style.BorderRightWidth = 1;
+            this.groupPanel1.Style.BorderTop = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.groupPanel1.Style.BorderTopWidth = 1;
+            this.groupPanel1.Style.CornerDiameter = 4;
+            this.groupPanel1.Style.CornerType = DevComponents.DotNetBar.eCornerType.Rounded;
+            this.groupPanel1.Style.TextAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Center;
+            this.groupPanel1.Style.TextColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelText;
+            this.groupPanel1.Style.TextLineAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Near;
+            // 
+            // 
+            // 
+            this.groupPanel1.StyleMouseDown.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // 
+            // 
+            this.groupPanel1.StyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.groupPanel1.TabIndex = 0;
+            this.groupPanel1.Text = "thong tin bàn ghế";
             // 
             // metroTabPanel5
             // 
@@ -318,13 +379,13 @@
             // 
             this.metroTabItem5.Name = "metroTabItem5";
             this.metroTabItem5.Panel = this.metroTabPanel3;
-            this.metroTabItem5.Text = "KHO HÀNG";
+            this.metroTabItem5.Text = "&HÓA ĐƠN";
             // 
             // metroTabItem6
             // 
             this.metroTabItem6.Name = "metroTabItem6";
             this.metroTabItem6.Panel = this.metroTabPanel4;
-            this.metroTabItem6.Text = "&HÓA ĐƠN";
+            this.metroTabItem6.Text = "&KHO HÀNG";
             // 
             // metroTabItem7
             // 
@@ -746,67 +807,6 @@
             this.metroTileItem11.TileStyle.BackColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(65)))), ((int)(((byte)(0)))));
             this.metroTileItem11.TileStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
             // 
-            // metroTabPanel1
-            // 
-            this.metroTabPanel1.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.metroTabPanel1.Controls.Add(this.groupPanel1);
-            this.metroTabPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.metroTabPanel1.Location = new System.Drawing.Point(0, 0);
-            this.metroTabPanel1.Name = "metroTabPanel1";
-            this.metroTabPanel1.Padding = new System.Windows.Forms.Padding(3, 0, 3, 3);
-            this.metroTabPanel1.Size = new System.Drawing.Size(1153, 707);
-            // 
-            // 
-            // 
-            this.metroTabPanel1.Style.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            // 
-            // 
-            // 
-            this.metroTabPanel1.StyleMouseDown.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            // 
-            // 
-            // 
-            this.metroTabPanel1.StyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.metroTabPanel1.TabIndex = 1;
-            // 
-            // groupPanel1
-            // 
-            this.groupPanel1.BackColor = System.Drawing.Color.White;
-            this.groupPanel1.CanvasColor = System.Drawing.SystemColors.Control;
-            this.groupPanel1.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.Office2007;
-            this.groupPanel1.Location = new System.Drawing.Point(0, 59);
-            this.groupPanel1.Name = "groupPanel1";
-            this.groupPanel1.Size = new System.Drawing.Size(266, 645);
-            // 
-            // 
-            // 
-            this.groupPanel1.Style.BackColor2SchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground2;
-            this.groupPanel1.Style.BackColorGradientAngle = 90;
-            this.groupPanel1.Style.BackColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground;
-            this.groupPanel1.Style.BorderBottom = DevComponents.DotNetBar.eStyleBorderType.Solid;
-            this.groupPanel1.Style.BorderBottomWidth = 1;
-            this.groupPanel1.Style.BorderColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBorder;
-            this.groupPanel1.Style.BorderLeft = DevComponents.DotNetBar.eStyleBorderType.Solid;
-            this.groupPanel1.Style.BorderLeftWidth = 1;
-            this.groupPanel1.Style.BorderRight = DevComponents.DotNetBar.eStyleBorderType.Solid;
-            this.groupPanel1.Style.BorderRightWidth = 1;
-            this.groupPanel1.Style.BorderTop = DevComponents.DotNetBar.eStyleBorderType.Solid;
-            this.groupPanel1.Style.BorderTopWidth = 1;
-            this.groupPanel1.Style.CornerDiameter = 4;
-            this.groupPanel1.Style.CornerType = DevComponents.DotNetBar.eCornerType.Rounded;
-            this.groupPanel1.Style.TextAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Center;
-            this.groupPanel1.Style.TextColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelText;
-            this.groupPanel1.Style.TextLineAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Near;
-            // 
-            // 
-            // 
-            this.groupPanel1.StyleMouseDown.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            // 
-            // 
-            // 
-            this.groupPanel1.StyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.groupPanel1.TabIndex = 0;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -825,8 +825,8 @@
             this.Load += new System.EventHandler(this.Form1_Load);
             this.metroShell1.ResumeLayout(false);
             this.metroShell1.PerformLayout();
-            this.expandablePanel1.ResumeLayout(false);
             this.metroTabPanel1.ResumeLayout(false);
+            this.expandablePanel1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
