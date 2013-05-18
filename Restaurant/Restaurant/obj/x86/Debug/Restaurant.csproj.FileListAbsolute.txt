@@ -9,3 +9,13 @@ C:\Users\QN\AppData\Local\Temporary Projects\Restaurant\obj\x86\Debug\Restaurant
 C:\Users\QN\AppData\Local\Temporary Projects\Restaurant\obj\x86\Debug\Restaurant.pdb
 C:\Users\QN\Desktop\restaurant-nhomf31\Restaurant\Restaurant\obj\x86\Debug\Restaurant.exe
 C:\Users\QN\Desktop\restaurant-nhomf31\Restaurant\Restaurant\obj\x86\Debug\Restaurant.pdb
+C:\Users\HTT_NDD\Desktop\restaurant-nhomf31\Restaurant\Restaurant\bin\Debug\Restaurant.exe.config
+C:\Users\HTT_NDD\Desktop\restaurant-nhomf31\Restaurant\Restaurant\obj\x86\Debug\Restaurant.exe
+C:\Users\HTT_NDD\Desktop\restaurant-nhomf31\Restaurant\Restaurant\obj\x86\Debug\Restaurant.pdb
+C:\Users\HTT_NDD\Desktop\restaurant-nhomf31\Restaurant\Restaurant\bin\Debug\Restaurant.exe
+C:\Users\HTT_NDD\Desktop\restaurant-nhomf31\Restaurant\Restaurant\bin\Debug\Restaurant.pdb
+C:\Users\HTT_NDD\Desktop\restaurant-nhomf31\Restaurant\Restaurant\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\HTT_NDD\Desktop\restaurant-nhomf31\Restaurant\Restaurant\obj\x86\Debug\Restaurant.Form1.resources
+C:\Users\HTT_NDD\Desktop\restaurant-nhomf31\Restaurant\Restaurant\obj\x86\Debug\Restaurant.Properties.Resources.resources
+C:\Users\HTT_NDD\Desktop\restaurant-nhomf31\Restaurant\Restaurant\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\HTT_NDD\Desktop\restaurant-nhomf31\Restaurant\Restaurant\obj\x86\Debug\GenerateResource.write.1.tlog
