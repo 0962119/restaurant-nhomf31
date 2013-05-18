@@ -8,7 +8,10 @@ using System.Text;
 using System.Windows.Forms;
 using DevComponents.DotNetBar;
 using DevComponents.DotNetBar.Metro;
-
+using BUS;
+using DTO;
+using System.Data.OleDb;
+using NETDataProviders;
 
 namespace Restaurant
 {
@@ -23,7 +26,10 @@ namespace Restaurant
         private void Form1_Load(object sender, EventArgs e)
         {
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-
+            string sql = "select * from BAN";
+            List<OleDbParameter> ListParam=new List<OleDbParameter>();
+            DataProvider dt = new DataProvider();
+            dataGridViewX2.DataSource= dt.ExecuteQuery(sql,ListParam);
         }
 
         private void metroTileItem15_Click(object sender, EventArgs e)
