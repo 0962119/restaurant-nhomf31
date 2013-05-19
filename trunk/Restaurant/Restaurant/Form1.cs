@@ -27,9 +27,9 @@ namespace Restaurant
         {
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             string sql = "select * from BAN";
-            List<OleDbParameter> ListParam=new List<OleDbParameter>();
+            List<OleDbParameter> ListParam = new List<OleDbParameter>();
             DataProvider dt = new DataProvider();
-            dataGridViewX2.DataSource= dt.ExecuteQuery(sql,ListParam);
+            dataGridViewX2.DataSource = dt.ExecuteQuery(sql, ListParam);
         }
 
         private void metroTileItem15_Click(object sender, EventArgs e)
@@ -57,6 +57,18 @@ namespace Restaurant
         private void pictureBox1_Click(object sender, EventArgs e)
         {
             expandablePanel1.Expanded = false;
+        }
+
+        private void metroTabItem7_Click(object sender, EventArgs e)
+        {
+
+            frmBaoCaoDoanhThu frmbaoCaoDT = new frmBaoCaoDoanhThu();
+            frmbaoCaoDT.Show();
+        }
+
+        private void metroTabItem3_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

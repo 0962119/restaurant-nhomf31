@@ -7,3 +7,12 @@ C:\Users\QN\Desktop\restaurant-nhomf31\Restaurant\BUS\bin\Debug\DAO.dll
 C:\Users\QN\Desktop\restaurant-nhomf31\Restaurant\BUS\bin\Debug\DAO.pdb
 C:\Users\QN\Desktop\restaurant-nhomf31\Restaurant\BUS\bin\Debug\DTO.dll
 C:\Users\QN\Desktop\restaurant-nhomf31\Restaurant\BUS\bin\Debug\DTO.pdb
+C:\Users\HTT_NDD\Desktop\restaurant-nhomf31\Restaurant\BUS\bin\Debug\BUS.dll
+C:\Users\HTT_NDD\Desktop\restaurant-nhomf31\Restaurant\BUS\bin\Debug\BUS.pdb
+C:\Users\HTT_NDD\Desktop\restaurant-nhomf31\Restaurant\BUS\bin\Debug\DAO.dll
+C:\Users\HTT_NDD\Desktop\restaurant-nhomf31\Restaurant\BUS\bin\Debug\DTO.dll
+C:\Users\HTT_NDD\Desktop\restaurant-nhomf31\Restaurant\BUS\bin\Debug\DAO.pdb
+C:\Users\HTT_NDD\Desktop\restaurant-nhomf31\Restaurant\BUS\bin\Debug\DTO.pdb
+C:\Users\HTT_NDD\Desktop\restaurant-nhomf31\Restaurant\BUS\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\HTT_NDD\Desktop\restaurant-nhomf31\Restaurant\BUS\obj\Debug\BUS.dll
+C:\Users\HTT_NDD\Desktop\restaurant-nhomf31\Restaurant\BUS\obj\Debug\BUS.pdb
