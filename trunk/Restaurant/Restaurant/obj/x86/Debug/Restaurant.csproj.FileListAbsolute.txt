@@ -19,3 +19,10 @@ C:\Users\HTT_NDD\Desktop\restaurant-nhomf31\Restaurant\Restaurant\obj\x86\Debug\
 C:\Users\HTT_NDD\Desktop\restaurant-nhomf31\Restaurant\Restaurant\obj\x86\Debug\Restaurant.Properties.Resources.resources
 C:\Users\HTT_NDD\Desktop\restaurant-nhomf31\Restaurant\Restaurant\obj\x86\Debug\GenerateResource.read.1.tlog
 C:\Users\HTT_NDD\Desktop\restaurant-nhomf31\Restaurant\Restaurant\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\HTT_NDD\Desktop\restaurant-nhomf31\Restaurant\Restaurant\bin\Debug\BUS.dll
+C:\Users\HTT_NDD\Desktop\restaurant-nhomf31\Restaurant\Restaurant\bin\Debug\DTO.dll
+C:\Users\HTT_NDD\Desktop\restaurant-nhomf31\Restaurant\Restaurant\bin\Debug\BUS.pdb
+C:\Users\HTT_NDD\Desktop\restaurant-nhomf31\Restaurant\Restaurant\bin\Debug\DTO.pdb
+C:\Users\HTT_NDD\Desktop\restaurant-nhomf31\Restaurant\Restaurant\obj\x86\Debug\Restaurant.frmBaoCaoDoanhThu.resources
+C:\Users\HTT_NDD\Desktop\restaurant-nhomf31\Restaurant\Restaurant\obj\x86\Debug\Restaurant.frmBaoCaoThongke_Ban.resources
+C:\Users\HTT_NDD\Desktop\restaurant-nhomf31\Restaurant\Restaurant\obj\x86\Debug\Restaurant.frmBaoCaoThongKe_MonAn.resources
