@@ -34,6 +34,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="DataGridViewNumericUpDownElements">
+      <HintPath>..\..\..\DataGridViewNumericUpDown\DataGridViewNumericUpDownElements\bin\Debug\DataGridViewNumericUpDownElements.dll</HintPath>
+    </Reference>
     <Reference Include="DevComponents.DotNetBar.Schedule, Version=10.8.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b, processorArchitecture=MSIL" />
     <Reference Include="DevComponents.DotNetBar2, Version=10.8.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b, processorArchitecture=MSIL" />
     <Reference Include="Microsoft.VisualBasic" />

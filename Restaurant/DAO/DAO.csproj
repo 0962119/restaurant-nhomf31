@@ -31,6 +31,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="NETDataProviders">
+      <HintPath>..\Restaurant\bin\Debug\NETDataProviders.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -40,7 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BAN_DAO.cs" />
     <Compile Include="DataProvider.cs" />
+    <Compile Include="DSMONAN_DAO.cs" />
+    <Compile Include="KHUVUC_DAO.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
